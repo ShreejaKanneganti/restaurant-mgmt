@@ -1,0 +1,4 @@
+The main idea of my project is to create an interactive page for a restaurant.
+I want to create a menu page for customers to view their food choices before hand.
+Include several images of the restaurant,food items, reviews from customers and details about the chef in the home page.
+Add contact detials of the managers in the contact page for any help required.

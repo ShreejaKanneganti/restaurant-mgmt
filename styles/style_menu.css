@@ -1,0 +1,13 @@
+body
+{
+background-color: bisque;
+font-family: 'Times New Roman', Times, serif;
+}
+img
+{
+    width: 250px;
+    height: 200px;
+    float: right;
+    padding-right: 400px;
+    
+}
