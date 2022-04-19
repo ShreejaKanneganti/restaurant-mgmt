@@ -3,11 +3,18 @@ body
 background-color: bisque;
 font-family: 'Times New Roman', Times, serif;
 }
-img
+.food1
 {
     width: 250px;
     height: 200px;
     float: right;
     padding-right: 400px;
+    
+}
+.food2
+{
+    width: 200px;
+    height: 200px;
+    float: right;
     
 }

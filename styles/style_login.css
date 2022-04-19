@@ -1,68 +1,91 @@
-header
-{   letter-spacing: 5px;
-    font-size: large;
+h1
+{   
+    letter-spacing: 5px;
+    font-size:xx-large;
+    text-align: center;
     font-style: "Times New Roman", Times, serif;
-    color: antiquewhite;
+    color: rgb(240, 145, 20);
 }
-
-.background
+body
 {   
     background-image: url("/images/littlev.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
 }
-
-body
-{
+    body
+    {
     text-align: center;
-}
-
-nav
-{
-    text-transform: uppercase;
-    margin-right: 30 px;
-    word-spacing: 2cm;
-    text-align: center;
+    }
+   h2
+   {
+    background-color:orange;
+    padding: 10x 10px;
+    text-align:center;
+    border-radius: 10px 10px 10px 10px;
+    }
+    
+    div.container{
     display: inline-block;
-}
+    font-family:'Times New Roman', Times, serif;
+    }
 
-form 
-{
-    background-color: antiquewhite;
-    border: 1px solid rgb(250, 227, 99);
-    width: max-content;
-    padding: 5px;
-    margin: 30px auto;
+    div.main
+    {
+    text-align: left;
+    width: 300px;
+    padding: 10px 50px 25px;
+    border: 2px solid rgb(231, 202, 150);
     border-radius: 10px;
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-}
-  
-form h2
-{
-     font-style:"Times New Roman", Times, serif ;
-     color: brown;
-}
+    margin-top:50px;
+    }
 
-label
-{
-    color: brown;
-}
-
-input
-{
-
-    display: inline-block;
-    margin: 10px;
+    input[type=text],input[type=password]
+    {
+    width: 100%;
+    height: 40px;
     padding: 5px;
-}
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #5b2828;
+    font-size: 16px;
+    border-radius: 5px;
+    }
 
-input[type="submit"]
-{
-    background-color: rgb(230, 170, 81);
-    color: brown;
-    border: none;
-    border-radius: 15px;
+    label
+    {
+    color: rgb(210, 89, 23);
+    text-align: left;
+    }
+    
+    .note
+    {
+    color:red;
+    }
+
+    .valid
+    {
+    color:yellow;
+    }
+
+    input[type=button]
+    {
+    font-size: 16px;
+    background: orange;
+    border: 1px solid #ebc661;
+    color: #4E4D4B;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
     padding: 10px;
-}
+    display: inline-block;
+    
+    }
+
+    input[type=button]:hover
+    {
+    background: linear-gradient(rgb(241, 202, 127) 5%, orange 100%);
+    }
+    
