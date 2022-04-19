@@ -10,11 +10,13 @@ return false;
 }
 else{
 attempt --;
-alert("You have left "+attempt+" attempt;");
+alert("You have left "+attempt+" attempt, Invalid Username/password;");
 if( attempt == 0){
 document.getElementById("username").disabled = true;
 document.getElementById("password").disabled = true;
 document.getElementById("submit").disabled = true;
+document.getElementById("username").value = "";
+document.getElementById("password").value = "";
 return false;
 }
 }

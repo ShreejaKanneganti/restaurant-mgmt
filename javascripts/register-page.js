@@ -7,7 +7,7 @@ function registration()
         var uname= document.getElementById("u_name").value;
         var pswd= document.getElementById("pswd").value;           
         
-        var pswd_expression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
+        var pswd_expression = /^(?=.?[A-Z])(?=.?[a-z])(?=.?[0-9])(?=.?[#?!@$%^&*-])/;
         var letters = /^[A-Za-z]+$/;
         var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
@@ -49,7 +49,7 @@ function registration()
         }
         else
         {                                           
-               alert('Thank You for Registration & You are Redirecting to the login page');
-               window.location = "login.html"; 
+               alert('Thank You for Registration,Please go back to login page');
+               window.location.href = "login.html"; 
         }
     }
