@@ -4,8 +4,9 @@ async function createTable() {
   let sql = `CREATE TABLE IF NOT EXISTS users (
     user_id INT NOT NULL AUTO_INCREMENT,
     username VARCHAR(255) NOT NULL UNIQUE,
-    user_weight NUMERIC,
-    user_height NUMERIC,
+    email VARCHAR(30),
+    fname Text,
+    lname Text,
     user_password VARCHAR(255),
     CONSTRAINT user_pk PRIMARY KEY(user_id)
   )`;
@@ -33,20 +34,21 @@ async function getUser(user) {
   return await con.query(sql);
 }
 
-async function login(username, password) {
-  const user = await userExists(username);
+async function login(userData) {
+  const user = await userExists(userData.uname);
   if(!user[0]) throw Error('User not found')
-  if(user[0].user_password !== password) throw Error("Password is incorrect");
+  if(user[0].user_password !== userData.pswd) throw Error("Password is incorrect");
 
   return user[0];
 }
 
 async function register(user) {
-  const u = userExists(user.username);
+  console.log(user)
+  const u = userExists(user.uname);
   if(u.length>0) throw Error("Username already exists");
 
-  const sql = `INSERT INTO users (username, user_password)
-    VALUES ("${user.username}", "${user.password}")
+  const sql = `INSERT INTO users (username, fname, lname, email, user_password)
+    VALUES ("${user.uname}", "${user.fname}", "${user.lname}", "${user.email}", "${user.pswd}")
   `;
 
   const insert = await con.query(sql);

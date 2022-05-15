@@ -14,7 +14,7 @@ router
 
   .post('/login', async (req, res) => {
     try {
-      const user = await User.login(req.body.username, req.body.password);
+      const user = await User.login(req.body);
       res.send({...user, password: undefined});
     } catch (error) {
       res.status(401).send({message: error.message});
@@ -23,8 +23,9 @@ router
 
   .post('/register', async (req, res) => {
     try {
+      console.log(req.body,"sent data")
       const user = await User.register(req.body);
-      console.log(user)
+      console.log("user Data",user)
       res.send({...user, password: undefined})
     } catch(error) {
       res.status(401).send({message: error.message});

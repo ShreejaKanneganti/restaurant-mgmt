@@ -6,6 +6,14 @@ function registration()
         var email= document.getElementById("email").value;
         var uname= document.getElementById("u_name").value;
         var pswd= document.getElementById("pswd").value;           
+
+        let registerData={
+            fname,
+            lname,
+            email,
+            uname,
+            pswd
+        }
         
         var pswd_expression = /^(?=.?[A-Z])(?=.?[a-z])(?=.?[0-9])(?=.?[#?!@$%^&*-])/;
         var letters = /^[A-Za-z]+$/;
@@ -48,8 +56,28 @@ function registration()
             alert('Please enter Password');
         }
         else
-        {                                           
-               alert('Thank You for Registration,Please go back to login page');
-               window.location.href = "login.html"; 
+        {         
+                console.log(registerData) 
+
+                const createUser = (registerData) => {
+                    axios.post('http://localhost:18/users/register', registerData,  {
+                        headers: {
+                          'Content-Type': 'application/json'
+                
+                        }
+                      })
+                    .then(response => {
+                    const addedUser = response.data;
+                    console.log(`POST: user is added`, addedUser);
+                    window.location= "login.html";
+                    })
+                    .catch(error => console.error(error));
+                   };
+                   createUser(registerData)
+                                                              
+            //    alert('Thank You for Registration,Please go back to login page');
+            //    window.location.href = "login.html"; 
         }
+
+
     }

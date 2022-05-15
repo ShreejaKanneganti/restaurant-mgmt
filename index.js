@@ -3,12 +3,12 @@ const app = express();
 const path = require('path');
 
 const userRoutes = require('./server/routes/user');
-const assessmentRoutes = require('./server/routes/assessmentnode ');
+// const assessmentRoutes = require('./server/routes/assessment');
 
 app.use(express.json()); //To parse JSON bodies (Applicable for Express 4.16+)
 
-app.use(express.static(__dirname + "/public"));
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/public', 'login.html')))
+app.use(express.static(path.join(__dirname, 'public')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'login.html')))
 
 //CORS middleware
 app.use(function(req, res, next) {
@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 });
 
 app.use("/users", userRoutes);
-app.use("/assessment", assessmentRoutes);
+// app.use("/assessment", assessmentRoutes);
 
 
 const PORT = process.env.PORT || 18;
