@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 
 const userRoutes = require('./server/routes/user');
-const assessmentRoutes = require('./server/routes/assessment');
+const assessmentRoutes = require('./server/routes/assessmentnode ');
 
 app.use(express.json()); //To parse JSON bodies (Applicable for Express 4.16+)
 
@@ -22,5 +22,5 @@ app.use("/users", userRoutes);
 app.use("/assessment", assessmentRoutes);
 
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 18;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}!`));
