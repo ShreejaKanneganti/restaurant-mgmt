@@ -38,6 +38,10 @@ On the review page, they can leave a review about their experience.
 
 ![home](https://user-images.githubusercontent.com/103955756/168896608-4166a75c-3edc-44fb-923f-2662e33ad6ea.png)
 
+### About us
+
+![about](https://user-images.githubusercontent.com/103955756/168897307-7538671f-525e-403b-affa-1ee62ca1f832.png)
+
 ### Menu Page
 
 ![menu](https://user-images.githubusercontent.com/103955756/168896665-39961c77-d13e-42a6-af33-6629cb9c7e9a.png)
