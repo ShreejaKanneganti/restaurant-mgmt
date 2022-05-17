@@ -28,4 +28,4 @@ On the review page, they can leave a review about their experience.
 
 ### Register Page
 
-![Image]("C:\Users\shreeja\Desktop\MS\web and db\Project\public\images\login.png")
+![Image]("C/Users/shreeja/Desktop/MS/web and db/Project/public/images/login.png")
