@@ -14,11 +14,18 @@ On the review page, they can leave a review about their experience.
 ## List of Technologies used
 
 ### Front end
+1.
 
-### Bckend
+### Backend
+1.
 
 ## How to use the project?
 1. add database into PHPMyadmin
 2. set up the environment variables for the database
 3. run the "npm install" for node_modules
 4. run "npm run dev"
+
+
+### Register Page
+
+![Image]("C:\Users\shreeja\Desktop\MS\web and db\Project\public\images\login.png")
