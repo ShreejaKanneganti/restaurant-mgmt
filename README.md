@@ -1,6 +1,6 @@
 # restaurant-mgmt
 
-# What is this project?
+## What is this project?
 
 My web application is an online food ordering service. A user can register on the website and log in to the website.
 As soon as they log in they can view the Home page where there are details about the restaurant, and menu and can also leave a review.
