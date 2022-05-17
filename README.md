@@ -11,3 +11,8 @@ On the menu page, they can view the food items available and add the food items 
 
 On the review page, they can leave a review about their experience.
 
+### How to use the project?
+1. add database into PHPMyadmin
+2. set up the environment variables for the database
+3. run the "npm install" for node_modules
+4. run "npm run dev"
