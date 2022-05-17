@@ -28,4 +28,5 @@ On the review page, they can leave a review about their experience.
 
 ### Register Page
 
-![Register](login.png)
+![login](https://user-images.githubusercontent.com/103955756/168896103-5d99983f-ea3b-40fd-9f11-96133ef5d4cd.png)
+
