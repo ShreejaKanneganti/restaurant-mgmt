@@ -28,4 +28,4 @@ On the review page, they can leave a review about their experience.
 
 ### Register Page
 
-![Image!](login.png)
+![Register](login.png)
