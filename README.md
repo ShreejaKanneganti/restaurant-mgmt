@@ -13,15 +13,24 @@ On the review page, they can leave a review about their experience.
 
 ## Unimplemented
 
-In the future I want to add a checkout feature, log out feature and also make changes to the review page so that it allows the user to leave a detailed review.
+1.In the future I want to add a checkout feature, where people can order and make a payment.
+2.log out feature 
+3.make changes to the review page so that it allows the user to leave a detailed review.
 
 ## List of Technologies used
 
 ### Front end
-1.
+1.HTML
+2.CSS
+3.Javascript
+4.Bootstrap
 
 ### Backend
-1.
+1.MYSQL
+2.Javascript
+3.Express
+4.Node js
+5.Axios
 
 ## How to use the project?
 1. add database into PHPMyadmin
