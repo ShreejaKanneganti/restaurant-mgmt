@@ -3,7 +3,7 @@
 ## What is this project?
 
 My web application is an online food ordering service. A user can register on the website and log in to the website.
-As soon as they log in they can view the Home page where there are de##tails about the restaurant, and menu and can also leave a review.
+As soon as they log in they can view the Home page where there are details about the restaurant, and menu and can also leave a review.
 
 When they click on the About us page they can view the location of the restaurant and find contacts of the people responsible for managing the restaurant.
 
@@ -13,24 +13,24 @@ On the review page, they can leave a review about their experience.
 
 ## Unimplemented
 
-1.In the future I want to add a checkout feature, where people can order and make a payment.
-2.log out feature 
-3.make changes to the review page so that it allows the user to leave a detailed review.
+1. In the future I want to add a checkout feature, where people can order and make a payment.
+2. log out feature 
+3. make changes to the review page so that it allows the user to leave a detailed review.
 
 ## List of Technologies used
 
 ### Front end
-1.HTML
-2.CSS
-3.Javascript
-4.Bootstrap
+1. HTML
+2. CSS
+3. Javascript
+4. Bootstrap
 
 ### Backend
-1.MYSQL
-2.Javascript
-3.Express
-4.Node js
-5.Axios
+1. MYSQL
+2. Javascript
+3. Express
+4. Node js
+5. Axios
 
 ## How to use the project?
 1. add database into PHPMyadmin
