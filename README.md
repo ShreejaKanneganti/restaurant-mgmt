@@ -28,9 +28,12 @@ On the review page, they can leave a review about their experience.
 ### Backend
 1. MYSQL
 2. Javascript
-3. Express
-4. Node js
-5. Axios
+3. NodeJS(Express)
+4. Axios
+
+## ERD 
+
+
 
 ## How to use the project?
 1. add database into PHPMyadmin
