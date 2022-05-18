@@ -32,8 +32,7 @@ On the review page, they can leave a review about their experience.
 4. Axios
 
 ## ERD 
-
-
+![Screenshot (945)](https://user-images.githubusercontent.com/103955756/168952656-77369357-6032-4ec7-8ab3-db73c743d4a6.png)
 
 ## How to use the project?
 1. add database into PHPMyadmin
